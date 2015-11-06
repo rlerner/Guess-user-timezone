@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="gettzinfo.js"></script>
+		<title>Auto Time Zone Guesser Demo</title>
+	</head>
+	<body onload="selectTZandDST()">
+		<form>
+			<select name="timezone" id="tz">
+				<option value="tz-840">UTC+14:00</option>
+				<option value="tz-825">UTC+13:45</option>
+				<option value="tz-780">UTC+13:00</option>
+				<option value="tz-765">UTC+12:45</option>
+				<option value="tz-720">UTC+12:00</option>
+				<option value="tz-660">UTC+11:00</option>
+				<option value="tz-630">UTC+10:30</option>
+				<option value="tz-600">UTC+10:00</option>
+				<option value="tz-570">UTC+09:30</option>
+				<option value="tz-540">UTC+09:00</option>
+				<option value="tz-525">UTC+08:45</option>
+				<option value="tz-480">UTC+08:00</option>
+				<option value="tz-420">UTC+07:00</option>
+				<option value="tz-390">UTC+06:30</option>
+				<option value="tz-360">UTC+06:00</option>
+				<option value="tz-345">UTC+05:45</option>
+				<option value="tz-330">UTC+05:30</option>
+				<option value="tz-300">UTC+05:00</option>
+				<option value="tz-270">UTC+04:30</option>
+				<option value="tz-240">UTC+04:00</option>
+				<option value="tz-210">UTC+03:30</option>
+				<option value="tz-180">UTC+03:00</option>
+				<option value="tz-120">UTC+02:00</option>
+				<option value="tz-60">UTC+01:00</option>
+				<option value="tz-0">UTC</option>
+				<option value="tz60">UTC-01:00</option>
+				<option value="tz120">UTC-02:00</option>
+				<option value="tz150">UTC-02:30</option>
+				<option value="tz180">UTC-03:00</option>
+				<option value="tz210">UTC-03:30</option>
+				<option value="tz240">UTC-04:00</option>
+				<option value="tz270">UTC-04:30</option>
+				<option value="tz300">UTC-05:00</option>
+				<option value="tz360">UTC-06:00</option>
+				<option value="tz420">UTC-07:00</option>
+				<option value="tz480">UTC-08:00</option>
+				<option value="tz540">UTC-09:00</option>
+				<option value="tz570">UTC-09:30</option>
+				<option value="tz600">UTC-10:00</option>
+				<option value="tz660">UTC-11:00</option>
+				<option value="tz720">UTC-12:00</option>
+			</select>
+			<input type="checkbox" name="observes_dst" id="observes_dst" /><label for='observes_dst'>My Timezone Observes Daylight Savings Time</label>
+		</form>
+	</body>
+</html>
